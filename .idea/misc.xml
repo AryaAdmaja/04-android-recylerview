@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Kuliah Semester 5/Pemrograman Mobile/Pertemuan 4/04-android-recyclerview/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Kuliah Semester 5/Pemrograman Mobile/Pertemuan 4/04-android-recyclerview/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
         <entry key="..\:/Kuliah Semester 5/Pemrograman Mobile/Pertemuan 4/04-android-recyclerview/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Kuliah Semester 5/Pemrograman Mobile/Pertemuan 4/04-android-recyclerview/app/src/main/res/layout/list_item.xml" value="0.11302083333333333" />
         <entry key="..\:/Users/STRIX/AndroidStudioProjects/04AndroidRecyclerView/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/STRIX/AndroidStudioProjects/04AndroidRecyclerView/app/src/main/res/layout/list_item.xml" value="0.264" />
       </map>

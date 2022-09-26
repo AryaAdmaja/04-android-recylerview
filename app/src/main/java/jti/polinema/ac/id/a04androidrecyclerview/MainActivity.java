@@ -13,18 +13,18 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 
 import jti.polinema.ac.id.a04androidrecyclerview.adapter.MahasiswaAdapter;
-import jti.polinema.ac.id.a04androidrecyclerview.data.MahasiswaData;
+import jti.polinema.ac.id.a04androidrecyclerview.data.MahasiswaDataLakiLaki;
 
 public class MainActivity extends AppCompatActivity {
 
-    private ArrayList<Mahasiswa> mhsArrayList;
+    private ArrayList<MahasiswaLakiLaki> mhsArrayList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        setDataMahasiswa(MahasiswaData.dataMahasiswa());
+        setDataMahasiswa(MahasiswaDataLakiLaki.dataMahasiswa());
 
         RecyclerView mhs_recyclerView = findViewById(R.id.main_recycler);
         MahasiswaAdapter adapter = new MahasiswaAdapter(mhsArrayList);
@@ -40,8 +40,8 @@ public class MainActivity extends AppCompatActivity {
             mhsArrayList = new ArrayList<>();
             for(int i=0; i<jsonArray.length(); i++){
                 JSONObject jsonObject = jsonArray.getJSONObject(i);
-                Mahasiswa mahasiswa = new Mahasiswa(jsonObject.getString("name"),
-                        jsonObject.getString("nim"));
+                MahasiswaLakiLaki mahasiswa = new MahasiswaLakiLaki(jsonObject.getString("name"),
+                        jsonObject.getString("absen"));
                 mhsArrayList.add(mahasiswa);
             }
 

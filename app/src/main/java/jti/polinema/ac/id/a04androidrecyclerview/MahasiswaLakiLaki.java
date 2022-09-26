@@ -1,13 +1,13 @@
 package jti.polinema.ac.id.a04androidrecyclerview;
 
-public class Mahasiswa {
+public class MahasiswaLakiLaki {
 
     private String name;
-    private String nim;
+    private String absen;
 
-    public Mahasiswa(String name, String nim){
+    public MahasiswaLakiLaki(String name, String absen){
         this.name = name;
-        this.nim = nim;
+        this.absen = absen;
     }
 
     public String getName() {
@@ -19,10 +19,10 @@ public class Mahasiswa {
     }
 
     public String getNim() {
-        return nim;
+        return absen;
     }
 
-    public void setNim(String nim) {
-        this.nim = nim;
+    public void setAbsen(String absen) {
+        this.absen = absen;
     }
 }

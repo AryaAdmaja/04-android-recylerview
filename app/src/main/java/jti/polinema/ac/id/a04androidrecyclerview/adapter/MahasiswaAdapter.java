@@ -9,14 +9,14 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 
-import jti.polinema.ac.id.a04androidrecyclerview.Mahasiswa;
+import jti.polinema.ac.id.a04androidrecyclerview.MahasiswaLakiLaki;
 import jti.polinema.ac.id.a04androidrecyclerview.R;
 
 public class MahasiswaAdapter extends RecyclerView.Adapter<MahasiswaViewHolder> {
 
-    private final ArrayList<Mahasiswa> dataList;
+    private final ArrayList<MahasiswaLakiLaki> dataList;
 
-    public MahasiswaAdapter(ArrayList<Mahasiswa> dataList) {
+    public MahasiswaAdapter(ArrayList<MahasiswaLakiLaki> dataList) {
         this.dataList = dataList;
     }
 
